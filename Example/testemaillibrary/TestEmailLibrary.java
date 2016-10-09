@@ -18,7 +18,7 @@ public class TestEmailLibrary {
     public static void main(String[] args) {
   EmailSender es = new EmailSender();
          es.setIds("nkennannadi@gmail.com", "nnadiug@rocketmail.com");
-         es.setLoginCredentials("nnadiug@rocketmail.com", "adaeze");
+         es.setLoginCredentials("nnadiug@rocketmail.com", "1234567890"); //email and password
          es.setSubject("testing email sender library");
          es.setMessage("it worked");
          es.useDefaultProps();
